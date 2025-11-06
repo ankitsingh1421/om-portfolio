@@ -59,7 +59,7 @@ const Index = () => {
         <Hero />
         <About />
         <Skills />
-        <Projects />
+        {/* <Projects /> */}
         {/* <Experience /> */}
         <Certifications />
         {/* <Competitions /> */}

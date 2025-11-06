@@ -48,7 +48,7 @@ export const Hero = () => {
                 <Mail className="mr-2 h-5 w-5" />
                 Get In Touch
               </Button>
-              
+{/*               
               <Button 
                 size="lg" 
                 variant="outline"
@@ -57,7 +57,7 @@ export const Hero = () => {
               >
                 <Download className="mr-2 h-5 w-5" />
                 Download Resume
-              </Button>
+              </Button> */}
             </div>
 
             <div className="flex gap-4 justify-center">
