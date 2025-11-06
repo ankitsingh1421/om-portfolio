@@ -11,6 +11,7 @@ import { Achievements } from "@/components/sections/Achievements";
 import { Courses } from "@/components/sections/Courses";
 import { Contact } from "@/components/sections/Contact";
 import type { NavItem } from "@/types/portfolio";
+import Education from "@/components/sections/Education";
 
 const navItems: NavItem[] = [
   { id: "home", label: "Home" },
@@ -59,6 +60,7 @@ const Index = () => {
         <Hero />
         <About />
         <Skills />
+        <Education/>
         {/* <Projects /> */}
         {/* <Experience /> */}
         <Certifications />

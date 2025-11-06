@@ -61,16 +61,16 @@ export const Hero = () => {
             </div>
 
             <div className="flex gap-4 justify-center">
-              <Button 
+              {/* <Button 
                 variant="ghost" 
                 size="icon" 
                 className="rounded-full hover:bg-primary/10 hover:text-primary"
                 asChild
               >
-                <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
                   <Github className="h-5 w-5" />
                 </a>
-              </Button>
+              </Button> */}
               
               <Button 
                 variant="ghost" 
@@ -78,7 +78,7 @@ export const Hero = () => {
                 className="rounded-full hover:bg-primary/10 hover:text-primary"
                 asChild
               >
-                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/shreeom-kanwe-3758b236b/" target="_blank" rel="noopener noreferrer">
                   <Linkedin className="h-5 w-5" />
                 </a>
               </Button>
